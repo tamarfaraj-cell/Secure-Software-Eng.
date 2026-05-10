@@ -9,7 +9,7 @@ The implementation focuses on the **Secure Login Process**, demonstrating defens
 The Java implementation incorporates several security principles:
 
 1.  **Input Whitelisting:** Student IDs are restricted to numeric values only using Regular Expressions (`[0-9]+`).
-2.  **Length Validation:** * Student IDs must be exactly 9 digits.
+2.  **Length Validation:** Student IDs must be exactly 9 digits.
     * Passwords must be between 8 and 20 characters.
 3.  **SQL Injection Prevention:** The system scans input for common injection characters (e.g., `'` and `=`) and terminates the session if a threat is detected.
 4.  **Fail-Safe Defaults:** Access is denied by default unless all security checks are successfully passed and credentials match.
