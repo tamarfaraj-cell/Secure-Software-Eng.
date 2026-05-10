@@ -19,8 +19,8 @@ The Java implementation has several security principles:
 The broader system architecture is designed to support:
 * **Account Management:** Secure creation and updates for user accounts.
 * **Role-Based Access Control (RBAC):**
-*  **Students:** View their own academic grades.
-*  **Instructors:** Post and update course grades.
+  *Students:* View their own academic grades.
+  *Instructors:* Post and update course grades.
 * **Data Integrity:** Ensuring grades remain accurate and unmanipulated.
 
 
